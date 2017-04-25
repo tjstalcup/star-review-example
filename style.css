@@ -1,0 +1,17 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+li:hover, li.hovered, li.selectedSibling, li.selected {
+  background-color: yellow;
+}
